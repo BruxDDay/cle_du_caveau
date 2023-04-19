@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Clé du caveau 1850: No.93</title>
+            <respStmt>
+               <persName role="composer">Clé du caveau</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt><date isodate="2023-04-19" type="encoding-date">2023-04-19</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingdesc-1mssctp">
+         <appInfo xml:id="appinfo-1f6f4on">
+            <application xml:id="application-lw3jdy" isodate="2023-04-19T19:51:44" version="3.14.0-1474e80">
+               <name xml:id="name-1ax9g2t">Verovio</name>
+               <p xml:id="p-1patcip">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m91u7q8">
+            <score xml:id="sv525zm">
+               <scoreDef xml:id="s1ducens">
+                  <pgHead xml:id="p1orfpl1">
+                     <rend xml:id="r1az5ft6" halign="center" valign="top">Clé du caveau 1850: No.93</rend>
+                     <rend xml:id="r29h4hp" halign="right" valign="top">Clé du caveau</rend>
+                  </pgHead>
+                  <staffGrp xml:id="sxcdnx6">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="2">
+                        <label xml:id="l1fd5o46">Harp</label>
+                        <labelAbbr xml:id="lltfrs">Hrp.</labelAbbr>
+                        <instrDef xml:id="i1g6exy6" midi.channel="0" midi.instrnum="46" midi.volume="78.00%" />
+                        <clef xml:id="cwqdp6y" shape="G" line="2" />
+                        <keySig xml:id="k1fz78h1" sig="0" />
+                        <meterSig xml:id="mrkj5a4" count="2" unit="2" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s14k4fp6">
+                  <measure xml:id="m1n06itj" n="1">
+                     <staff xml:id="s1g3kos4" n="1">
+                        <layer xml:id="l5bcwuy" n="1">
+                           <note xml:id="nsar8m" dur.ppq="1" dur="8" oct="4" pname="a" stem.dir="down" />
+                           <note xml:id="nohdjlw" dur.ppq="1" dur="8" oct="4" pname="b" stem.dir="down" />
+                           <note xml:id="nqrr8zp" dur.ppq="1" dur="8" oct="5" pname="c" stem.dir="down" />
+                           <note xml:id="n17gb2b0" dur.ppq="1" dur="8" oct="5" pname="d" stem.dir="down" />
+                        </layer>
+                     </staff>
+                     <dir xml:id="djd82jv" type="segno" place="above" staff="1" tstamp="0.000000">
+                        <rend xml:id="r11z5xx0" halign="center" fontfam="smufl" fontstyle="normal">𝄋</rend>
+                     </dir>
+                     <tempo xml:id="tnish1h" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="92.000000">
+                        <rend xml:id="r1hjn8ds" fontweight="bold">Andante</rend>
+                     </tempo>
+                  </measure>
+                  <measure xml:id="mqimkn4" n="2">
+                     <staff xml:id="sk630qh" n="1">
+                        <layer xml:id="losph8n" n="1">
+                           <beam xml:id="b1v7dvfg">
+                              <note xml:id="n193w7ka" dur.ppq="1" dur="8" oct="5" pname="e" stem.dir="down" />
+                              <note xml:id="n8prgws" dur.ppq="1" dur="8" oct="5" pname="d" stem.dir="down" />
+                           </beam>
+                           <beam xml:id="b1pdn1sr">
+                              <note xml:id="nbedvao" dur.ppq="1" dur="8" oct="5" pname="e" stem.dir="down" />
+                              <note xml:id="ns27po1" dur.ppq="1" dur="8" oct="5" pname="c" stem.dir="down" />
+                           </beam>
+                           <beam xml:id="b1fxslvm">
+                              <note xml:id="n1djjll2" dur.ppq="1" dur="8" oct="5" pname="f" stem.dir="down" />
+                              <note xml:id="n1g1xk2h" dur.ppq="1" dur="8" oct="5" pname="e" stem.dir="down" />
+                           </beam>
+                           <beam xml:id="b14qc184">
+                              <note xml:id="n1j2lj0s" dur.ppq="1" dur="8" oct="5" pname="f" stem.dir="down" />
+                              <note xml:id="n1vpuix4" dur.ppq="1" dur="8" oct="5" pname="d" stem.dir="down" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1vop77c" n="3">
+                     <staff xml:id="s987vm" n="1">
+                        <layer xml:id="lkxkaac" n="1">
+                           <mSpace xml:id="mwqtghb" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
